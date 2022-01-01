@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetup.SinalR.Server", "Meetup.SinalR.Server\Meetup.SinalR.Server.csproj", "{CAF76E9E-F6C4-49EB-B018-35C7B5700E70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetup.SignalR.Client", "Meetup.SignalR.Client\Meetup.SignalR.Client.csproj", "{4300846A-F00F-41AF-BF10-ABFC7D36B4B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetup.SignalR.Chat", "Meetup.SignalR.Chat\Meetup.SignalR.Chat.csproj", "{248F6D5E-6C76-4969-804D-D350761AA814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAF76E9E-F6C4-49EB-B018-35C7B5700E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF76E9E-F6C4-49EB-B018-35C7B5700E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF76E9E-F6C4-49EB-B018-35C7B5700E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF76E9E-F6C4-49EB-B018-35C7B5700E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4300846A-F00F-41AF-BF10-ABFC7D36B4B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4300846A-F00F-41AF-BF10-ABFC7D36B4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4300846A-F00F-41AF-BF10-ABFC7D36B4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4300846A-F00F-41AF-BF10-ABFC7D36B4B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{248F6D5E-6C76-4969-804D-D350761AA814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{248F6D5E-6C76-4969-804D-D350761AA814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{248F6D5E-6C76-4969-804D-D350761AA814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{248F6D5E-6C76-4969-804D-D350761AA814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A54AEAE3-2FF4-4324-A36D-54248AE2D8A4}
+	EndGlobalSection
+EndGlobal

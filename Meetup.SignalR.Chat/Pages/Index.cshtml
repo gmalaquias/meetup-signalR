@@ -1,0 +1,44 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+
+<div class="text-center">
+    <h1 class="display-4" id="nomeUsuario">Olá</h1>
+
+
+</div>
+
+<div id="usuario">
+    <label>Nome: </label>
+    <input type="text" class="name" />
+
+    <input type="submit" value="Iniciar" class="iniciar" />
+</div>
+
+<div class="mensagem-box" style="display:none;">
+    <label>Destino: </label>
+    <input type="text" id="destino" />
+
+    <label>Mensagem: </label>
+    <input type="text" id="mensagem" />
+
+    <input type="submit" id="enviar" value="Enviar" />
+</div>
+
+<div id="mensagens">
+    <p></p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+
+<script src="/js/signalR.js"></script>
+
+<script src="/js/js/site.js">
+
+</script>
